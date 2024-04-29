@@ -23,5 +23,6 @@ jobs:
       
     - name: Run build script
       run: bash build.sh
-      
-    
+        
+    - name: Deploy
+      run: python app.py
